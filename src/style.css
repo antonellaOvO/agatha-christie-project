@@ -1,0 +1,16 @@
+h1 {
+  /*width: 928px;
+height: 144px;*/
+
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 144px;
+  color: black;
+
+  /* Inside auto layout 
+flex: none;
+order: 1;
+flex-grow: 0;*/
+}
