@@ -9,6 +9,11 @@ body {
   margin: 0 auto;
 }
 
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
     url("../images/image-header.png");
@@ -56,11 +61,63 @@ header a {
   margin-top: 32px;
 }
 
-footer {
-  text-align: center;
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 80px;
 }
 
-@media (max-width: 900px) {
+footer {
+  color: #ffffff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("../images/image-footer.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #272044;
+  padding: 100px 0;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer ul {
+  padding: 0px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+footer li {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  padding: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
+.open-sourced {
+  opacity: 1;
+}
+
+@media (max-width: 960px) {
   header {
     padding: 60px 0;
   }
