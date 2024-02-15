@@ -115,6 +115,51 @@ section.third {
   background-color: #12101d;
 }
 
+footer {
+  color: #ffffff;
+  background-image: linear-gradient(
+      rgba(39, 32, 68, 0.8),
+      rgba(39, 32, 68, 0.8)
+    ),
+    url("../images/image-footer.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: #272044;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+footer ul {
+  padding: 0px;
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.6;
+}
+
+footer li {
+  margin: 0px;
+  padding: 0px;
+}
+
+footer a {
+  color: white;
+}
+
+footer p {
+  padding: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.7;
+}
+
 .btn {
   text-align: center;
   padding: 16px;
@@ -126,6 +171,10 @@ section.third {
   letter-spacing: 3px;
   color: white;
   display: block;
+}
+
+.css-filter {
+  filter: drop-shadow(0 0 0.5rem #8a8b86);
 }
 
 .grid {
@@ -179,51 +228,6 @@ section.third {
 
 .text-center {
   text-align: center;
-}
-
-footer {
-  color: #ffffff;
-  background-image: linear-gradient(
-      rgba(39, 32, 68, 0.8),
-      rgba(39, 32, 68, 0.8)
-    ),
-    url("../images/image-footer.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  background-color: #272044;
-}
-
-footer h3 {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 30px;
-}
-
-footer ul {
-  padding: 0px;
-  list-style-type: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  opacity: 0.6;
-}
-
-footer li {
-  margin: 0px;
-  padding: 0px;
-}
-
-footer a {
-  color: white;
-}
-
-footer p {
-  padding: 0px;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 24px;
-  opacity: 0.7;
 }
 
 .open-sourced {
