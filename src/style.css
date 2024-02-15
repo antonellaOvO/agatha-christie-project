@@ -111,11 +111,6 @@ section.secondary {
   background-color: #181525;
 }
 
-section.secondary img {
-  width: 185px;
-  height: 185px;
-}
-
 .btn {
   text-align: center;
   padding: 16px;
@@ -152,6 +147,15 @@ section.secondary img {
   margin: 30px 0;
 }
 
+.card-header.grid {
+  grid-gap: 0;
+}
+
+.embed {
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
 .card-body {
   padding: 30px;
 }
@@ -161,7 +165,7 @@ section.secondary img {
 }
 
 .img-responsive {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -235,12 +239,20 @@ footer p {
     font-size: 12px;
   }
 
+  section {
+    padding: 30px;
+  }
+
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
   }
 
-  section {
-    padding: 30px;
+  .card-header img {
+    display: none;
+  }
+
+  .embed {
+    aspect-ratio: 16/9;
   }
 }
